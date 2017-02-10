@@ -1,0 +1,44 @@
+/*@font-face {
+  font-family: 'Helvetica Neue LT Cyrillic';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Helvetica Neue LT Cyrillic Th"), local("HelveticaNeueLTCyrillic-th"), url("../fonts/HelveticaNeueLTCyrillicTnCn.woff") format("woff"); }*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.popap-map {
+  width: 295px;
+  height: 169px;
+  padding: 8px 15px 12px;
+  color: #494949;
+  font-family: "Open Sans";
+  font-size: 13px;
+}
+
+.popap-map_title {
+  color: #72A4C7;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.popap-map_subtitle {
+  font-weight: 600;
+}
+
+.popap-map_text {
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.popap-map_time {
+  /*display: block;*/
+  font-weight: 300;
+  white-space: nowrap;
+}
