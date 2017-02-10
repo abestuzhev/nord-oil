@@ -27,11 +27,12 @@
 <div class="popap-map">
   <div class="popap-map_title">Офис</div>
   <div class="popap-map_text"><span class="popap-map_subtitle">Адрес:</span> Архангельск, пр. Троицкий, д. 37, 5 этаж</div>
-  <div class="popap-map_text"><span class="popap-map_subtitle">Телефон:</span> 8 (8182) 28- 50- 19</div>
+  <div class="popap-map_text"><span class="popap-map_subtitle">Телефон:</span> (8182) 28-50-19</div>
+  <div class="popap-map_text"><span class="popap-map_subtitle">Email:</span> info@nord-oil.net</div>
   <div class="popap-map_text">
     <span class="popap-map_subtitle">Часы работы:</span>
-    <span class="popap-map_time">пн-чт 09:00-17:00, обед 12:00-13:00 </span>
-    <span class="popap-map_time">пт 09:00-15:00 </span>
+    <span class="popap-map_time">пн-чт 09:00-17:00, обед 12:00-13:00</span>
+    <span class="popap-map_time">пт 09:00-15:00</span>
   </div>
 </div><!-- popap-map -->
 </section>
@@ -65,19 +66,18 @@
     });
 
     myPlacemark1 = new ymaps.Placemark([56.315695,44.017063], {
-      name: 'САЛОН «ЧАРУЮЩИЕ САМОЦВЕТЫ»',
-      address: 'г. Смоленск, ул. Большая Советская,24',
-      number: '8-900-222-76-67',
-      weekdays: 'пн-пт с 9.00 до 19.00 ',
-      weekend: 'сб-вск с 10.00 до 20.00',
-      pay: 'наличные, карта',
-      way: 'маршрутка или автобус 125 до  остановки "Остановка" слева 4-х   этжное здание с нашей вывеской'
+      name: 'Офис',
+      address: 'Архангельск, пр. Троицкий, д. 37, 5 этаж',
+      number: '(8182) 28-50-19',
+      email: 'info@nord-oil.net',
+      weekdays: 'пн-чт 09:00-17:00, обед 12:00-13:00',
+      weekend: 'пт 09:00-15:00'
 
     }, {
       // Изображение иконки метки
-      iconImageHref: 'img/map-poin-white.png',
+      iconImageHref: 'img/icon-office.png',
       // Размеры изображения иконки
-      iconImageSize: [43, 45],
+      iconImageSize: [37, 56],
       // смещение картинки
       iconImageOffset: [-16, -37],
       // Размеры содержимого балуна
@@ -85,38 +85,34 @@
       // Задаем макет балуна - пользовательская картинка с контентом
       balloonLayout: "default#imageWithContent",
       // Картинка балуна
-      balloonImageHref: 'img/baloon-img.png',
+      balloonImageHref: 'img/baloon-bg.png',
       // Смещение картинки балуна
       balloonImageOffset: [-307, -227],
       // Размеры картинки балуна
-      balloonImageSize: [615, 454],
+      balloonImageSize: [295, 169],
       // Балун не имеет тени
       balloonShadow: false,
       //Выравнивание по умолчанию
       balloonAutoPan: false
     }),
 
-            myPlacemark2 = new ymaps.Placemark([56.324117,44.00136], {
-              name: 'САЛОН «ЧАРУЮЩИЕ САМОЦВЕТЫ»',
-              address: 'г. Смоленск, ул. Большая Советская,24',
-              number: '8-900-222-76-67',
-              weekdays: 'пн-пт с 9.00 до 19.00 ',
-              weekend: 'сб-вск с 10.00 до 20.00',
-              pay: 'наличные, карта',
-              way: 'маршрутка или автобус 125 до  остановки "Остановка" слева 4-х   этжное здание с нашей вывеской'
+    myPlacemark2 = new ymaps.Placemark([56.324117,44.00136], {
+      name: 'Лаборатория',
+      address: 'Архангельск, ул. Силикатчиков, д. 19',
+      weekdays: 'пн-пт 09:00-17:00'
 
-            }, {
-              iconImageHref: 'img/map-poin-white.png',
-              iconImageSize: [43, 45],
-              iconImageOffset: [-16, -37],
-              balloonContentSize: [595, 434],
-              balloonLayout: "default#imageWithContent",
-              balloonImageHref: 'img/baloon-img.png',
-              balloonImageOffset: [-307, -227],
-              balloonImageSize: [615, 454],
-              balloonShadow: false,
-              balloonAutoPan: false
-            }),
+    }, {
+      iconImageHref: 'img/icon-laboratory.png',
+      iconImageSize: [37, 56],
+      iconImageOffset: [-16, -37],
+      balloonContentSize: [595, 434],
+      balloonLayout: "default#imageWithContent",
+      balloonImageHref: 'img/baloon-img.png',
+      balloonImageOffset: [-307, -227],
+      balloonImageSize: [615, 454],
+      balloonShadow: false,
+      balloonAutoPan: false
+    }),
 
             myPlacemark3 = new ymaps.Placemark([56.320203,44.002321], {
               name: 'САЛОН «ЧАРУЮЩИЕ САМОЦВЕТЫ»',
