@@ -1,0 +1,43 @@
+
+#close-balloon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+.ymaps-image-with-content-content {
+  font-family: "Open Sans" !important;
+}
+
+.popap-map_title {
+  text-align: left;
+  color: #72A4C7;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 5px 0 3px;
+}
+
+.popap-map_subtitle {
+  font-weight: 600;
+  text-align: left;
+  color: #494949;
+  font-family: "Open Sans";
+}
+
+.popap-map_text {
+  line-height: 1.3;
+  font-weight: 300;
+  margin-bottom: 3px;
+  text-align: left;
+  color: #494949;
+  font-family: "Open Sans";
+}
+
+.popap-map_time {
+  font-weight: 300;
+  text-align: left;
+  color: #494949;
+  font-family: "Open Sans";
+}

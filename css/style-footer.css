@@ -1,0 +1,146 @@
+.top-box {
+  background: #383866;
+}
+
+.wrap-footer {
+  margin-top: 0;
+}
+
+/*logo style*/
+.logo-in-menu,
+.tbl-toggle {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.content::afrer {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.l-footer_left {
+  float: left;
+}
+
+.l-footer_right {
+  float: right;
+}
+/**/
+.footer-company {
+  margin-top: 10px;
+  width: 330px;
+}
+
+.footer-company::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.footer-company_logo {
+  float: left;
+  width: 25px;
+}
+
+.footer-company_logo img{
+  max-width: 100%;
+}
+
+.footer-company_text {
+  padding-left: 36px;
+  color: #222;
+  font: 13px 'Open Sans', sans-serif;
+}
+
+
+/**/
+.footer-bottom {
+  padding: 7px 0;
+  background-color: #fff;
+}
+
+.footer-menu {
+  list-style: none;
+}
+
+.footer-menu_item {
+  display: inline-block;
+}
+
+.footer-menu .footer-menu_link {
+  display: block;
+  color: #212121;
+  text-decoration: none;
+  font: 13px 'Open Sans', sans-serif;
+  padding: 5px 11px;
+}
+
+.footer-menu .footer-menu_link:hover {
+  color: #5D89A4;
+}
+
+.footer-menu_item:last-child .footer-menu_link{
+  padding-right: 0;
+}
+
+.footer-menu_item:first-child .footer-menu_link{
+  padding-left: 0;
+}
+
+
+/*footer-social*/
+.footer-social {
+  text-align: right;
+}
+
+.footer-social_item {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+}
+.social-vk {
+  background: url("../images/footer/logo-vk.png") 0 0 no-repeat;
+}
+
+
+@media screen and (max-width: 980px) {
+  .l-footer_left,
+  .l-footer_right {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .footer-menu {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .footer-social {
+    display: inline-block;
+    margin-left: 22px;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .l-footer_right {
+    text-align: center;
+  }
+
+  .footer-company {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-social {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .footer-company {
+    width: 100%;
+    font-size: 12px;
+  }
+}
